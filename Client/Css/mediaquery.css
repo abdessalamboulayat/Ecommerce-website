@@ -1,0 +1,78 @@
+@media   (max-width: 899px) {
+    /* .containerNav>nav{
+        gap: 75%;
+    } */
+    .toggle{
+        display: block;
+        font-size: 20px;
+        cursor: pointer;
+        z-index: 10;
+    }
+    .open{
+        display: block;
+    }
+    .close{
+        display: none;
+    }
+    .open .ouvrir{
+        display: none;
+    }
+    .open .fermer{
+        display: block;
+    }
+    .navBar{
+        width: 100%;
+        /* margin-top: 20px; */
+        padding: 20px;
+        background-color: rgb(228, 238, 237);
+        position: absolute;
+        flex-direction: column;
+        transform: translateX(-100%);
+        text-align: center;
+    }
+    .open .navBar{
+        transform: translateX(70%);
+    }
+    /* .navBar>div, .navBar> p, .navBar> form{
+        /* width: 100%;
+        display: block; */
+        /* position: fixed; */
+        /* top: -100%; 
+        transition: all .5s;
+    } */
+    /* .navBar{
+        display: none;
+    }
+    #icone{
+        float: right;
+        display: block;
+    }
+    .navBar>div.show, .navBar> p.show, .navBar> form.show{
+        /* bottom:  0%; 
+        position: absolute;
+        /* margin: 50px;
+        display: block;
+        z-index: 1;
+        color: black;
+    }
+    #icone:focus .navBar{
+        display: block;
+    } */
+}
+@media (max-width: 840px){
+    .details{
+        width: 100%;
+        display: block;
+    }
+    .desc{
+        display: block;
+        width: 100%;
+    }
+}
+@media(max-width: 765px){
+    .produit{
+        display: block;
+        width: 84%;
+        margin: auto;
+    }
+}
